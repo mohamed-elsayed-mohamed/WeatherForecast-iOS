@@ -10,7 +10,7 @@ import XCTest
 
 class TestHomeView: XCTestCase {
     
-    private var homeVC: HomeView = HomeRouter.start().entryPoint as! HomeView
+    private var homeVC: HomeView = HomeRouter.start().view!
 
     override func setUpWithError() throws {
         try? super.setUpWithError()

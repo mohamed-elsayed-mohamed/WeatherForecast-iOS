@@ -12,7 +12,6 @@
 		8C9F31E026E513AF00D76617 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C9F31DE26E513AF00D76617 /* Main.storyboard */; };
 		8C9F31E226E513B000D76617 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C9F31E126E513B000D76617 /* Assets.xcassets */; };
 		8C9F31E526E513B000D76617 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C9F31E326E513B000D76617 /* LaunchScreen.storyboard */; };
-		8C9F31FB26E513B100D76617 /* WeatherForecastUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9F31FA26E513B100D76617 /* WeatherForecastUITests.swift */; };
 		8C9F322226E5238B00D76617 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9F322126E5238B00D76617 /* HomeRouter.swift */; };
 		8C9F322426E525B000D76617 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9F322326E525B000D76617 /* HomePresenter.swift */; };
 		8C9F322626E5279200D76617 /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9F322526E5279200D76617 /* HomeInteractor.swift */; };
@@ -23,6 +22,12 @@
 		8C9F323326E52E3200D76617 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9F323226E52E3200D76617 /* HomeView.swift */; };
 		8C9F323826E53F0E00D76617 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9F323726E53F0E00D76617 /* Constants.swift */; };
 		8C9F324226E5816D00D76617 /* TestHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9F324126E5816D00D76617 /* TestHomeView.swift */; };
+		8CB1F1DC26E62FA7003748C7 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CB1F1DB26E62FA7003748C7 /* Home.storyboard */; };
+		8CB1F1DE26E63E5A003748C7 /* Favorite.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CB1F1DD26E63E5A003748C7 /* Favorite.storyboard */; };
+		8CB1F1E026E640A3003748C7 /* Alarm.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CB1F1DF26E640A3003748C7 /* Alarm.storyboard */; };
+		8CB1F1E426E6A806003748C7 /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB1F1E226E6A806003748C7 /* HomeCell.swift */; };
+		8CB1F1E526E6A806003748C7 /* HomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CB1F1E326E6A806003748C7 /* HomeCell.xib */; };
+		8CB44F6D26E7A7A400461118 /* TestWhenButtonsPressed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB44F6C26E7A7A400461118 /* TestWhenButtonsPressed.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,7 +58,6 @@
 		8C9F31EB26E513B100D76617 /* WeatherForecastTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherForecastTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C9F31F126E513B100D76617 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8C9F31F626E513B100D76617 /* WeatherForecastUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherForecastUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8C9F31FA26E513B100D76617 /* WeatherForecastUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherForecastUITests.swift; sourceTree = "<group>"; };
 		8C9F31FC26E513B100D76617 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8C9F322126E5238B00D76617 /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
 		8C9F322326E525B000D76617 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
@@ -65,6 +69,12 @@
 		8C9F323226E52E3200D76617 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		8C9F323726E53F0E00D76617 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		8C9F324126E5816D00D76617 /* TestHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestHomeView.swift; sourceTree = "<group>"; };
+		8CB1F1DB26E62FA7003748C7 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		8CB1F1DD26E63E5A003748C7 /* Favorite.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Favorite.storyboard; sourceTree = "<group>"; };
+		8CB1F1DF26E640A3003748C7 /* Alarm.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Alarm.storyboard; sourceTree = "<group>"; };
+		8CB1F1E226E6A806003748C7 /* HomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
+		8CB1F1E326E6A806003748C7 /* HomeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeCell.xib; sourceTree = "<group>"; };
+		8CB44F6C26E7A7A400461118 /* TestWhenButtonsPressed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestWhenButtonsPressed.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,7 +150,7 @@
 		8C9F31F926E513B100D76617 /* WeatherForecastUITests */ = {
 			isa = PBXGroup;
 			children = (
-				8C9F31FA26E513B100D76617 /* WeatherForecastUITests.swift */,
+				8CB44F6A26E7A72300461118 /* Modules */,
 				8C9F31FC26E513B100D76617 /* Info.plist */,
 			);
 			path = WeatherForecastUITests;
@@ -167,6 +177,9 @@
 			isa = PBXGroup;
 			children = (
 				8C9F31DE26E513AF00D76617 /* Main.storyboard */,
+				8CB1F1DB26E62FA7003748C7 /* Home.storyboard */,
+				8CB1F1DD26E63E5A003748C7 /* Favorite.storyboard */,
+				8CB1F1DF26E640A3003748C7 /* Alarm.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -193,6 +206,7 @@
 			isa = PBXGroup;
 			children = (
 				8C9F322726E5291600D76617 /* Protocols */,
+				8CB1F1E126E6A7D3003748C7 /* Cells */,
 				8C9F323226E52E3200D76617 /* HomeView.swift */,
 				8C9F322126E5238B00D76617 /* HomeRouter.swift */,
 				8C9F322326E525B000D76617 /* HomePresenter.swift */,
@@ -320,6 +334,31 @@
 			path = Local;
 			sourceTree = "<group>";
 		};
+		8CB1F1E126E6A7D3003748C7 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				8CB1F1E226E6A806003748C7 /* HomeCell.swift */,
+				8CB1F1E326E6A806003748C7 /* HomeCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		8CB44F6A26E7A72300461118 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				8CB44F6B26E7A73000461118 /* Home */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		8CB44F6B26E7A73000461118 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				8CB44F6C26E7A7A400461118 /* TestWhenButtonsPressed.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -395,6 +434,7 @@
 					};
 					8C9F31F526E513B100D76617 = {
 						CreatedOnToolsVersion = 12.5.1;
+						LastSwiftMigration = 1250;
 						TestTargetID = 8C9F31D426E513AF00D76617;
 					};
 				};
@@ -424,9 +464,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CB1F1E526E6A806003748C7 /* HomeCell.xib in Resources */,
+				8CB1F1E026E640A3003748C7 /* Alarm.storyboard in Resources */,
 				8C9F31E526E513B000D76617 /* LaunchScreen.storyboard in Resources */,
 				8C9F31E226E513B000D76617 /* Assets.xcassets in Resources */,
 				8C9F31E026E513AF00D76617 /* Main.storyboard in Resources */,
+				8CB1F1DE26E63E5A003748C7 /* Favorite.storyboard in Resources */,
+				8CB1F1DC26E62FA7003748C7 /* Home.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +505,7 @@
 				8C9F322D26E529D200D76617 /* PresenterProtocol.swift in Sources */,
 				8C9F322B26E5297600D76617 /* InteractorProtocol.swift in Sources */,
 				8C9F322926E5294100D76617 /* ViewProtocol.swift in Sources */,
+				8CB1F1E426E6A806003748C7 /* HomeCell.swift in Sources */,
 				8C9F322226E5238B00D76617 /* HomeRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -477,7 +522,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C9F31FB26E513B100D76617 /* WeatherForecastUITests.swift in Sources */,
+				8CB44F6D26E7A7A400461118 /* TestWhenButtonsPressed.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -721,6 +766,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5GCQQMG9SV;
 				INFOPLIST_FILE = WeatherForecastUITests/Info.plist;
@@ -731,6 +777,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.alpha.WeatherForecastUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = WeatherForecast;
@@ -741,6 +788,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5GCQQMG9SV;
 				INFOPLIST_FILE = WeatherForecastUITests/Info.plist;

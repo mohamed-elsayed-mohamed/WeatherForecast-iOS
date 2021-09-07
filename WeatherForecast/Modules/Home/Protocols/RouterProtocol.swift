@@ -10,7 +10,8 @@ import UIKit
 
 protocol RouterProtocol {
     
-    var entryPoint: UIViewController? { get }
+    var entryPoint: UITabBarController? { get }
+    var view: HomeView! { get }
     
     static func start() -> HomeRouter
 }

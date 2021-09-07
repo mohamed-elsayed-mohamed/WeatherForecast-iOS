@@ -9,5 +9,5 @@ import Foundation
 
 // Contains ref to presenter
 class HomeInteractor: InteractorProtocol {
-    weak var presenter: HomePresenter?
+    weak var presenter: HomePresenter!
 }

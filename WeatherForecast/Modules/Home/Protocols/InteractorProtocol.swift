@@ -8,5 +8,5 @@
 import Foundation
 
 protocol InteractorProtocol {
-    var presenter: HomePresenter? { set get }
+    var presenter: HomePresenter! { set get }
 }

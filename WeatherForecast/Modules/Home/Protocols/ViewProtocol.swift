@@ -8,5 +8,6 @@
 import Foundation
 
 protocol ViewProtocol {
-    var presenter: HomePresenter? { set get }
+    var presenter: HomePresenter! { set get }
+    func reloadData()
 }
