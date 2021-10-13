@@ -7,7 +7,8 @@
 
 import Foundation
 
-protocol ViewProtocol {
+protocol ViewProtocol: AnyRemoteActions {
     var presenter: HomePresenter! { set get }
-    func reloadData()
+    
+    func updateCurrent(current: CurrentWeatherModel)
 }

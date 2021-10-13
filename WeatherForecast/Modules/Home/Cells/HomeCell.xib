@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -79,6 +80,13 @@
                 <constraint firstAttribute="trailing" secondItem="kbi-e3-aSS" secondAttribute="trailing" id="hJw-NT-IeT"/>
                 <constraint firstItem="kbi-e3-aSS" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="m76-vj-kjO"/>
             </constraints>
+            <connections>
+                <outlet property="imgStatus" destination="2mA-nL-dju" id="k36-up-Jih"/>
+                <outlet property="lblDate" destination="qVt-pK-Bl9" id="nZ0-mN-p5o"/>
+                <outlet property="lblStatus" destination="iNx-ap-ySO" id="fCl-rd-Pe7"/>
+                <outlet property="lblTemp" destination="yBt-gI-SU5" id="5Tw-P5-4cE"/>
+                <outlet property="lblUnit" destination="09J-Qk-WI4" id="XU2-ZG-feD"/>
+            </connections>
             <point key="canvasLocation" x="137.68115942028987" y="140.625"/>
         </collectionViewCell>
     </objects>

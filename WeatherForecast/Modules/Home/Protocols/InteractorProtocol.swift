@@ -9,4 +9,6 @@ import Foundation
 
 protocol InteractorProtocol {
     var presenter: HomePresenter! { set get }
+    
+    func getWeather(latitude lat: Double, longitude lon: Double, requestFor request: Request)
 }

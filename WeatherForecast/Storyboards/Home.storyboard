@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BbE-s8-umg">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
@@ -408,7 +409,7 @@
                         <imageReference key="image" image="house.fill" catalog="system" symbolScale="default"/>
                     </tabBarItem>
                     <navigationItem key="navigationItem" title="Home" id="7vl-vt-dWi">
-                        <barButtonItem key="rightBarButtonItem" image="gearshape.fill" catalog="system" id="ZKi-3b-fjt">
+                        <barButtonItem key="rightBarButtonItem" image="slider.horizontal.3" catalog="system" id="ZKi-3b-fjt">
                             <connections>
                                 <action selector="btnSettingAction:" destination="bcs-Mn-4mM" id="DYj-9E-eRz"/>
                             </connections>
@@ -416,6 +417,15 @@
                     </navigationItem>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
+                        <outlet property="imgStatus" destination="o2o-AN-onf" id="kIV-bX-wkK"/>
+                        <outlet property="lblCloud" destination="9Qq-IJ-Au3" id="Ojt-SH-dJd"/>
+                        <outlet property="lblDate" destination="f2c-qG-2bo" id="3Ml-oY-Iny"/>
+                        <outlet property="lblHumidity" destination="ViR-m0-db1" id="WVU-tM-vZc"/>
+                        <outlet property="lblLocation" destination="puY-LV-2qp" id="kF2-HV-PFa"/>
+                        <outlet property="lblPressure" destination="US5-pX-AQ0" id="i3s-Pz-Fxc"/>
+                        <outlet property="lblTemp" destination="ZlV-n0-bff" id="5Va-EV-m2j"/>
+                        <outlet property="lblTempUnit" destination="OH7-FV-Dud" id="rLl-YM-SYR"/>
+                        <outlet property="lblWind" destination="54j-i2-giA" id="VSk-e4-9gc"/>
                         <outlet property="weatherCollectionView" destination="BlG-Kb-D01" id="9pW-7e-B0C"/>
                     </connections>
                 </viewController>
@@ -455,9 +465,9 @@
     </scenes>
     <resources>
         <image name="cloud.fill" catalog="system" width="128" height="84"/>
-        <image name="gearshape.fill" catalog="system" width="128" height="121"/>
         <image name="house.fill" catalog="system" width="128" height="106"/>
         <image name="location" width="24" height="24"/>
+        <image name="slider.horizontal.3" catalog="system" width="128" height="100"/>
         <image name="sun.max.fill" catalog="system" width="128" height="124"/>
         <image name="wind" catalog="system" width="128" height="101"/>
         <namedColor name="Background">
